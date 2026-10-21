@@ -1,0 +1,12 @@
+{
+  "name": "weather-forecasting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack Weather Forecasting Web Application with React, Vite, Tailwind CSS, Express, and Open-Meteo",
+  "scripts": {
+    "dev:frontend": "npm --prefix weather-app run dev",
+    "build:frontend": "npm --prefix weather-app run build",
+    "start:backend": "npm --prefix backend/weather-backend start",
+    "dev:backend": "npm --prefix backend/weather-backend run dev"
+  }
+}
